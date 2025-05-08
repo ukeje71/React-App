@@ -52,24 +52,22 @@
   .carousel-slide .firstlayer .btn {
     display: flex;
     flex-direction: row;
-    background-color: #be5427;
+    background-color: var(--text-color3);
     align-items: center;
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: var(--padding1);
     color: var(--text-color4);
     margin: 0 auto;
     text-transform: uppercase;
     font-size: small;
   }
-  .carousel-slide .firstlayer .btn > .arrow-icon {
-    filter: brightness(0) invert(1);
-    background: none;
-    transition: 0.3s ease-in-out;
+
+  .carousel-slide .firstlayer .btn:hover {
+    background-color: #e97b4c;
   }
-  .carousel-slide .firstlayer .btn > .arrow-icon:hover {
-    transform: skew(30px);
-    margin-right: 10px;
+  .carousel-slide .firstlayer .btn:active {
+    background-color: var(--text-color3);
   }
 
   .secondlayer {
@@ -152,26 +150,20 @@
   .carousel-slide .firstlayer .btn {
     display: flex;
     flex-direction: row;
-    background-color: #be5427;
+    background-color: var(--text-color3);
     align-items: center;
     width: fit-content;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 4px 15px;
     color: var(--text-color4);
     margin: 0 auto;
     text-transform: uppercase;
     font-size: small;
   }
-  .carousel-slide .firstlayer .btn > .arrow-icon {
-    filter: brightness(0) invert(1);
-    background: none;
-    transition: 0.3s ease-in-out;
-  }
-  .carousel-slide .firstlayer .btn > .arrow-icon:hover {
-    transform: skew(30px);
-    margin-right: 10px;
-  }
 
+  .carousel-slide .firstlayer .btn:hover {
+    background-color: #be5427;
+  }
   .secondlayer {
     width: 100%;
     height: 100%;

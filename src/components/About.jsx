@@ -12,7 +12,7 @@ const imgarr = [img1, img2, img3, img4]
 
 const About = () => {
   return (
-    <div className="bg-black">
+    <div>
       <section className="Hero-page">
         <div
           className="cover"
@@ -51,7 +51,7 @@ const About = () => {
             <div className="btn">
               <p>Get in touch</p>
               <ArrowRight
-                className="arrow-icon animate-bounce"
+                className="arrow-icon animate-pulse"
                 size={30}
                 color="White"
               />
