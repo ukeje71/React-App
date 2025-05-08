@@ -1,0 +1,25 @@
+/* Tailwind import */
+@import "tailwindcss";
+
+/* Reset css import */
+@import url("./reset.css");
+/* General styles */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --text-color1: #1a4122;
+  --text-color2: grey;
+  --text-color3: #be5427;
+  --text-color4: #fff;
+  --text-color5: rgb(100, 123, 78);
+  --padding1: 4px 1rem;
+  --padding2: 4px 2rem;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
