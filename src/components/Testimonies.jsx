@@ -5,6 +5,9 @@ import img1 from "../assets/images/4.2-Lorely-Meza.jpg";
 import img2 from "../assets/images/4.1-Kay-McCoy.jpg";
 import img3 from "../assets/images/4.3-Desert-Born-Studios.jpg";
 import img4 from "../assets/images/4.4-Lorely-Meza.jpg";
+// import img5 from "../assets/images/7-31-5.jpg";
+// import img6 from "../assets/images/1.-MAIN-3.jpg";
+
 // Carusel import
 import { Carousel } from "react-responsive-carousel";
 
@@ -75,8 +78,25 @@ const Testimonies = () => {
         </div>
       </section>
 
-      <section>
+      <section className="news">
         <h1>What’s Cookin’</h1>
+        <div>
+          <div className="hover-container">
+            <img src={img4} alt="img5" />
+            <div className="hover-content">
+              <p>Read More</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="hover-container">
+            <img src={img3} />
+            <div className="hover-content">
+              <p>Read More</p>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
