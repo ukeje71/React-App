@@ -112,8 +112,8 @@
   .hidden > a > button {
     background-color: var(--text-color3);
     border: none;
-    padding: var(--padding1);
-    border-radius: 5px;
+    padding: var(--padding2);
+    border-radius: 20px;
     color: var(--text-color4);
   }
   .logo {

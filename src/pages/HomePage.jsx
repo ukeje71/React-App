@@ -1,17 +1,22 @@
-import React from "react"
+import React from "react";
 import Header from "../components/Header";
 import About from "../components/About";
-import Carusel from "../components/Carusel";
 import Service from "../components/Service";
+import Venues from "../components/Venues";
+import Moreservices from "../components/Moresevices";
+import Testimonies from "../components/Testimonies";
 
 const HomePage = () => {
   return (
-    <div>
-      <Header/>
-      <About/>
-      <Service/>
-    </div>
-  )
+    <>
+      <Header />
+      <About />
+      <Service />
+      <Venues />
+      <Moreservices />
+      <Testimonies/>
+    </>
+  );
 };
 
 export default HomePage;

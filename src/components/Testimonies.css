@@ -1,0 +1,73 @@
+.Logo {
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-image: url(../assets/24cemblem.svg);
+  display: block;
+  margin: 0px auto;
+  transform: translate(-50%, -50%);
+  top: 0px;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+/* ===== MOBILE _ SCREENS ===== */
+
+@media screen and (min-width: 120px) and (max-width: 767px) {
+}
+/* ===== Tablet _ SCREENS ===== */
+
+@media screen and (min-width: 768px) {
+  .Testimonies {
+    background-color: var(--text-color1);
+    color: var(--text-color4);
+  }
+  .static-head > h2 {
+    font-size: 3rem;
+    font-family: "f37 caslon", serif;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .static-head > p {
+    width: 600px;
+    margin: 0 auto;
+    font-family: "Rustica", sans-serif;
+    color: #c6e5a9;
+    word-spacing: 2px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .testimonyList .list {
+    padding: var(--padding2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .testimonyList .list img {
+    width: 500px;
+    height: 500px;
+  }
+  .testimonyList .list .speech > p {
+    font-family: Futura PT;
+    font-size: 1.6rem;
+    width: 500px;
+    word-wrap: break-word;
+  }
+  .testimonyList .list .speech > h3 {
+    font-size: 1.5rem;
+    font-family: " Futura PT", serif;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .testimonyList .list .speech > h4 {
+    font-weight: lighter;
+    font-family: " Futura PT", serif;
+  }
+}

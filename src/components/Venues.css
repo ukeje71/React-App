@@ -1,0 +1,205 @@
+/* Default */
+.btn {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--text-color3);
+  color: var(--text-color4);
+  width: fit-content;
+  margin: 0 auto;
+  padding: var(--padding1);
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: small;
+  margin-bottom: 4rem;
+}
+.btn:hover {
+  background-color: #d6561f;
+}
+.btn:active {
+  background-color: var(--text-color3);
+}
+
+/* ===== MOBILE _ SCREENS ===== */
+
+@media screen and (min-width: 120px) and (max-width: 767px) {
+  .Curvedout {
+    margin-top: 10rem;
+  }
+  .bg {
+    background-image: url(../assets/images/unforegetable-banner.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 595px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+  }
+  .Curvedout .partialcurve {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 345px 345px 0 0;
+    background-color: #fff;
+    display: block;
+    z-index: 23344;
+    height: 280px;
+    width: 100%;
+    bottom: -292px;
+    overflow: hidden;
+  }
+  .writeup {
+    position: relative;
+    z-index: 1000;
+    /* width: 38rem; */
+    margin: 0 auto;
+    color: var(--text-color1);
+  }
+  .writeup h3 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: "Rustica ", sans-serif;
+    margin-top: -1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .writeup h2 {
+    font-size: 3rem;
+    font-family: "f37 caslon", serif;
+    margin-top: -2rem;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .writeup p {
+    font-family: "futura-pt", sans-serif;
+    margin: 20px 0px 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: lighter;
+    font-size: large;
+    padding: var(--padding1);
+  }
+
+  /*  */
+  .hover-parent {
+    display: none;
+  }
+}
+
+/* ===== Tablet _ SCREENS ===== */
+
+@media screen and (min-width: 768px) {
+  .Curvedout {
+    margin-top: 10rem;
+  }
+  .bg {
+    background-image: url(../assets/images/unforegetable-banner.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 595px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+  }
+  .Curvedout .partialcurve {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 345px 345px 0 0;
+    background-color: #fff;
+    display: block;
+    z-index: 23344;
+    height: 316px;
+    width: 643px;
+    bottom: -292px;
+  }
+  .writeup {
+    position: relative;
+    z-index: 1000;
+    width: 38rem;
+    margin: 0 auto;
+    color: var(--text-color1);
+  }
+  .writeup h3 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: "Rustica ", sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .writeup h2 {
+    font-size: 4rem;
+    font-family: "f37 caslon", serif;
+    margin-top: 1rem;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .writeup p {
+    font-family: "futura-pt", sans-serif;
+    margin: 20px 0px 30px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: lighter;
+    font-size: large;
+  }
+  .hover-parent {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    overflow-x: scroll;
+    padding: 5rem;
+  }
+  .hover-container {
+    position: relative;
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    transition: background 0.3s ease;
+    cursor: pointer;
+  }
+  .hover-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hover-container:hover {
+    background: #333;
+  }
+
+  .hover-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e26f3e9d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: top 0.3s ease;
+  }
+
+  .hover-container:hover .hover-content {
+    top: 0;
+  }
+
+  .hover-content p {
+    border: 1px solid var(--text-color4);
+    padding: var(--padding1);
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .hover-content p:hover {
+background-color: var(--text-color3);
+color: var(--text-color4);
+  }
+}
