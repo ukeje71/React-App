@@ -15,7 +15,7 @@ const Service = () => {
         <h2 className="lead">Making Every Experience Magical</h2>
         {/* IMAGES WILL GO HERE */}
         <div>
-          <Carousel showThumbs={false} autoPlay={true} infiniteLoop  >
+        <Carousel showArrows={false} sh showThumbs={false} autoPlay={true} infiniteLoop  >
             <span className="swipers">
               <img src={img1} alt="image1" />
               <span className="exc">

@@ -42,7 +42,7 @@ const Moreservices = () => {
           </div>
 
           {/* Transiting  images will go here */}
-          <div className="transiting"></div>
+          <div className="slideshow"></div>
 
           <div className="listing-cover">
             <span>
